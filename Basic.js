@@ -143,6 +143,12 @@ else{
         console.log("not a fruit")
   }
 //Loops
+// 1.for
+// 2.while
+// 3.do...while
+// 4.for...of
+// 5.for...in
+// 6.for-each
 
 for(var i=0;i<5;i++){
      if(i==3){
@@ -151,17 +157,15 @@ for(var i=0;i<5;i++){
      console.log(i)
 }
 // for...of----only for
-
+// print all character,array value separately
 var colors=["red","blue","green"]
-
 for(var color of colors){
     console.log(color)
 }
 var n="Riya"
 for(var letter of n){
     console.log(letter)
-}
-
+} 
 // var colobj={
 //     name:"yellow",
 //     feel:"light"
@@ -184,6 +188,10 @@ var ob={
 for(let key in ob){
     console.log(`${key}:${ob[key]}`)
 }//---object key will get  display
+
+// In JavaScript, the forEach() method is used to run a function on each element of an array.
+// It is one of the easiest ways to loop through an array.
+// in JavaScript, the forEach() method only works on arrays (and array-like objects such as NodeList).
 var s=[1,2,3];
 s.forEach(myfunction)
 
