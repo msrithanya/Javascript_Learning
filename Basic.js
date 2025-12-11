@@ -195,7 +195,7 @@ for(let key in ob){
 var s=[1,2,3];
 s.forEach(myfunction)
 
-function myfunction(v,i){
+function myfunction(v,i,arr){ //v-current element,i-index,arr-actuall array for this example its s.
     console.log(v+i);
 }
 
